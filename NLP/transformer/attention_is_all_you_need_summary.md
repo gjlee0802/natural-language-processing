@@ -18,6 +18,7 @@
 ### Positional Encoding
 - RNN(LSTM) 구조에서는 입력이 자연스럽게 순서대로 모델에 입력되었으나, 어텐션 연산에서는 순서 정보가 고려되지 않음.
 - 입력 임베딩에 Positional Encoding이라 불리는 입력 임베딩과 같은 차원의 위치 정보를 담는 벡터를 더해줌.
+- 즉, RNN을 사용하지 않으려면 **위치 정보를 포함하고 있는 임베딩**을 사용해야 하는데, 이를 위해 Positional Encoding을 사용함.
 
 ### Self Attention
 - 원하는 문장을 임베딩하고 학습을 통해 Query, Key, Value에 맞는 가중치들을 구해줌.
