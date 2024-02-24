@@ -34,4 +34,4 @@
 
 ### 참조
 - https://velog.io/@jhbale11/%EC%96%B4%ED%85%90%EC%85%98-%EB%A7%A4%EC%BB%A4%EB%8B%88%EC%A6%98Attention-Mechanism%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
-
+- (나동빈 유튜브) https://www.youtube.com/watch?v=AA621UofTUA&t=2711s
