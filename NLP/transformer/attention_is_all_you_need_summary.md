@@ -33,6 +33,11 @@
 - 도출된 Attention value들은 마지막에 concatenate를 통해 하나로 합쳐서 최종 Attention value 도출
 - 사람들이 회의를 하듯이 여러 부분에서 도출돼 결과를 통해 정보를 상호 보완하여 Multi-head Attention 메커니즘 성능이 좋음.
 
+## Attention의 종류
+- Encoder Self-Attention : 인코더 파트에서는 각각의 단어가 다른 단어들에 대해서 서로 어떠한 연관을 가지는지를 어텐션을 통해서 구하도록 만듦.
+- Masked Decoder Self-Attention : 디코더 파트에서 셀프 어텐션을 사용할 때는 각각의 출력 단어가 다른 모든 출력 단어를 참고하도록 하지는 않고, 앞쪽의 단어들만 참고하도록 함.
+- Encoder-Decoder Attention : 쿼리가 디코더에 있고, 각각의 키와 밸류들은 인코더에 있는 상황에 적용되는 어텐션, 디코더 파트에 있는 쿼리 값이 인코더 파트에 있는 키와 밸류 값을 참고함.
+
 ### 참조
 - https://velog.io/@jhbale11/%EC%96%B4%ED%85%90%EC%85%98-%EB%A7%A4%EC%BB%A4%EB%8B%88%EC%A6%98Attention-Mechanism%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
 - (나동빈 유튜브) https://www.youtube.com/watch?v=AA621UofTUA&t=2711s
