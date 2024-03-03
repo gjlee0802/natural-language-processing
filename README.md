@@ -7,3 +7,4 @@
 3. lstm
 4. seq2seq
 5. transformer
+6. bert
