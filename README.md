@@ -1,6 +1,8 @@
 # 자연어처리
 ## 소개
-자연어처리 관해 공부한 내용을 담는 레포지토리입니다.
+자연어처리 관해 공부한 내용을 담는 레포지토리입니다.  
+AI의 다양한 분야에서 활용되는 Transformer 개념에 대해 이해하기까지 노력하였습니다:)  
+
 ## 순서
 ### 1. word2vec 
 [CBOW 파이토치 실습](https://github.com/gjlee0802/natural-language-processing/blob/main/NLP/word2vec_and_embedding/CBOW_solution.ipynb)  
